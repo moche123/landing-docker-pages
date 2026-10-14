@@ -1,0 +1,19 @@
+# Salida generada por el workflow (docker cp)
+dist/
+
+# Secretos locales (.env sí se versiona: lo lee el workflow)
+.env.local
+.env.*.local
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
